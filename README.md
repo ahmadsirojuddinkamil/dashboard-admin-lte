@@ -1,115 +1,105 @@
-﻿# React实现服装商城项目
+# [AdminLTE - Bootstrap 4 Admin Dashboard](https://adminlte.io)
 
-**走马灯**
+[![npm version](https://img.shields.io/npm/v/admin-lte/latest.svg)](https://www.npmjs.com/package/admin-lte)
+[![Packagist](https://img.shields.io/packagist/v/almasaeed2010/adminlte.svg)](https://packagist.org/packages/almasaeed2010/adminlte)
+[![cdn version](https://data.jsdelivr.com/v1/package/npm/admin-lte/badge)](https://www.jsdelivr.com/package/npm/admin-lte)
+[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/from-referrer/)
+[![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/ColorlibHQ/AdminLTE)
+[![Discord Invite](https://img.shields.io/badge/discord-join%20now-green)](https://discord.gg/jfdvjwFqfz)
 
-![走马灯][1]
+**AdminLTE** is a fully responsive administration template. Based on **[Bootstrap 4.6](https://getbootstrap.com/)** framework and also the JS/jQuery plugin.
+Highly customizable and easy to use. Fits many screen resolutions from small mobile devices to large desktops.
 
-**首页**
+**Preview on [AdminLTE.io](https://adminlte.io/themes/v3)**
 
-![此处输入图片的描述][2]
+## Looking for Premium Templates?
 
-**类目页**
+AdminLTE.io just opened a new premium templates page. Hand picked to ensure the best quality and the most affordable
+prices. Visit <https://adminlte.io/premium> for more information.
 
-![类目页][3]
+!["AdminLTE Presentation"](https://adminlte.io/AdminLTE3.png "AdminLTE Presentation")
 
-**搜索页**
+**AdminLTE** has been carefully coded with clear comments in all of its JS, SCSS and HTML files.
+SCSS has been used to increase code customizability.
 
-![搜索页][5]
+## Quick start
+There are multiple ways to install AdminLTE.
 
-**商品详情页**
+### Download & Changelog:
+Always Recommended to download from GitHub latest release [AdminLTE 3](https://github.com/ColorlibHQ/AdminLTE/releases/latest) for bug free and latest features.\
+Visit the [releases](https://github.com/ColorlibHQ/AdminLTE/releases) page to view the changelog.\
+Legacy Releases are [AdminLTE 2](https://github.com/ColorlibHQ/AdminLTE/releases/tag/v2.4.18) / [AdminLTE 1](https://github.com/ColorlibHQ/AdminLTE/releases/tag/1.3.1).
 
-![商品详情页][6]
+## Stable release
+### Grab from [jsdelivr](https://www.jsdelivr.com/package/npm/admin-lte) CDN:
+_**Important Note**: You needed to add separately cdn links for plugins in your project._
+```html
+<script src="https://cdn.jsdelivr.net/npm/admin-lte@3.2/dist/js/adminlte.min.js"></script>
+```
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/admin-lte@3.2/dist/css/adminlte.min.css">
+```
+### Using The Command Line:
+_**Important Note**: To install it via npm/Yarn, you need at least Node.js 14 or higher._
+#### Via npm
+```bash
+npm install admin-lte@^3.2 --save
+```
+#### Via Yarn
+```bash
+yarn add admin-lte@^3.2
+```
+#### Via Composer
+```bash
+composer require "almasaeed2010/adminlte=~3.2"
+```
+#### Via Git
+```bash
+git clone https://github.com/ColorlibHQ/AdminLTE.git
+```
 
-**购物车**
+## Documentation
 
-![购物车][4]
+Visit the [online documentation](https://adminlte.io/docs/3.2/) for the most
+updated guide. Information will be added on a weekly basis.
 
-## 技术栈
+## Browsers support
 
->  详情可参阅 `package.json`
+| [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png" alt="IE / Edge" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br/>IE / Edge | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" alt="Firefox" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br/>Firefox | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" alt="Chrome" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br/>Chrome | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png" alt="Safari" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br/>Safari | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari-ios/safari-ios_48x48.png" alt="iOS Safari" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br/>iOS Safari | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/samsung-internet/samsung-internet_48x48.png" alt="Samsung" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br/>Samsung | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/opera/opera_48x48.png" alt="Opera" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br/>Opera | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/vivaldi/vivaldi_48x48.png" alt="Vivaldi" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br/>Vivaldi | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/electron/electron_48x48.png" alt="Electron" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br/>Electron |
+| --------- | --------- | --------- | --------- | --------- | --------- | --------- | --------- | --------- |
+| IE10, IE11, Edge| last 2 versions| last 2 versions| last 2 versions| last 2 versions| last 2 versions| last 2 versions| last 2 versions| last 2 versions
 
- - React @15.6.1
- - React Route @4.1.1
- - SemanticUI
- - MockJS
- - Axios
- - Webpack
- - ES6 + Babel
- - Sass
+## Light Mode (Only Dark Mode Removed)
+You can use light-mode-only version, if you are not using dark mode and also file size less without dark-mode.
 
-## 快速开始
-
-### 安装
-
-需要安装 `NodeJS` 
-
-在项目根目录按住 `Shift` 键鼠标右键点击，打开命令窗口
-
-在命令窗口输入 `npm install` 安装依赖
-
-### 运行
-
-安装依赖完成后，在命令窗口输入 `npm start` ,稍等片刻等待服务器启动与项目打包
-
-如无意外，默认浏览器就会自动打开 `localhost:8080` ,您立即可以看到项目效果
-
-若浏览器没有自动弹出，则请自行手动访问
-
-## 项目架构
-### 目录结构
-
-    .
-    ├─ config/            # Webpack 配置目录
-    ├─ doc/               # 文档相关目录
-    ├─ src/               # 源码目录（开发都在这里进行）
-    │   ├─ assets/        # 静态文件目录
-    │   │   ├─ font/      # 字体文件
-    │   │   ├─ img/       # 图片文件
-    │   │   ├─ style/     # 样式文件
-    │   ├─ components/    # 组件（COMPONENT）
-    │   │   ├─ carousel/  # 走马灯组件
-    │   │   ├─ cart/      # 购物车组件
-    │   │   ├─ footer/    # 页脚组件
-    │   │   ├─ header/    # 页头组件
-    │   │   ├─ home/      # 主页组件
-    │   │   ├─ main/      # 类目页组件
-    │   │   ├─ nav/       # 导航菜单组件
-    │   │   ├─ popup/     # 提示框组件
-    │   │   ├─ product/   # 详情页组件
-    │   │   ├─ scroll/    # 鼠标滑动组件
-    │   │   ├─ user/      # 用户信息组件
-    │   ├─ data/          # 数据目录
-    │   ├─ router/        # 路由（ROUTER）
-    │   ├─ utils/         # 工具库（UTIL）
-    │   ├─ app.js         # 启动文件
-    │   ├─ index.html     # 静态基页
-    ├── .babelrc          # Babel 转码配置
-    ├── debug.log         # 操作日志文件
-    ├── package.json      # npm 配置
-
-### 说明
-
- - 利用 Webpack 构建工具搭建项目开发环境
- - 利用 React + Babel 开发基于ES6模块化的JavaScript应用
- - 利用 Semantic-ui-React 界面开发框架搭建语义化的架构
- - 利用 Sass 预编译器 编写页面样式
- - 利用 React-Route 实现应用页面的跳转路由
- - 利用 MockJS 随机生成应用数据，模拟前后端交互情景
- - 利用 Axios HTTP库完成数据请求
- - 利用 Ant Motion 实现首页轮播图以及各种动效设计
- - 利用 原生JS中 DOM、BOM  实现顶部工具栏滚动固定以及回到顶部功能
-
-### 技术难题
-
- 1. 用flex布局实现首页热卖品栏目、分类页商品展示栏目、搜索页展示栏目的样式一致，难度不高，但是比较复杂，要顾及到特定的场景
- 2. 由route管理的兄弟组件之间的通信（利用route的children属性加载组件）
- 3. 跨祖先级的组件间的数据交互（例如详情页添加商品到购物车与购物车页面的商品展示等）
- 4. 利用mock随机生成大量数据，并在需要进行数据交互的组件内利用axios进行数据交互，并通过props、state等进行父子组件间数据通信
+File Location `./dist/css/alt/adminlte.light.css`
 
 
-  [1]: http://wx2.sinaimg.cn/mw690/c0096cf9ly1fhyehc4l5gj214u0lo1kx.jpg
-  [2]: http://wx2.sinaimg.cn/mw690/c0096cf9ly1fhyehs8onwj214u0lowlr.jpg
-  [3]: http://wx2.sinaimg.cn/mw690/c0096cf9ly1fhyeho2ooyj214u0lomzz.jpg
-  [4]: http://wx3.sinaimg.cn/mw690/c0096cf9ly1fhyehkdi8aj214u0lo75w.jpg
-  [5]: http://wx2.sinaimg.cn/mw690/c0096cf9ly1fhyeimp3b9j214u0lon0q.jpg
-  [6]: http://wx3.sinaimg.cn/mw690/c0096cf9ly1fhyehw4glqj214u0lotc5.jpg
+## Compile dist files
+
+To compile the dist files you need Node.js/npm, clone/download the repo then:
+
+1. `npm install` (install npm deps)
+2. _Optional:_ `npm run dev` (developer mode, autocompile with browsersync support for live demo)
+3. `npm run production` (compile css/js files)
+
+
+## Contributing
+
+Please read through our [contributing guidelines](https://github.com/ColorlibHQ/AdminLTE/tree/master/.github/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
+
+Editor preferences are available in the [editor config](https://github.com/twbs/bootstrap/blob/main/.editorconfig) for easy use in common text editors. Read more and download plugins at <https://editorconfig.org/>.
+
+
+## License
+
+AdminLTE is an open source project by [AdminLTE.io](https://adminlte.io) that is licensed under [MIT](https://opensource.org/licenses/MIT).
+AdminLTE.io reserves the right to change the license of future releases.
+
+## Image Credits
+
+- [Pixeden](http://www.pixeden.com/psd-web-elements/flat-responsive-showcase-psd)
+- [Graphicsfuel](https://www.graphicsfuel.com/2013/02/13-high-resolution-blur-backgrounds/)
+- [Pickaface](https://pickaface.net/)
+- [Unsplash](https://unsplash.com/)
+- [Uifaces](http://uifaces.com/)
